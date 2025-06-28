@@ -256,3 +256,49 @@ h2{
 
 /* --------------------------------------------------- */
 
+.footer__container{
+    border-top: solid 1px #BCD0E5;
+    padding: 102px 0 83px 0;
+    align-items:start;
+}
+
+.footer__links li{
+    line-height: 2.2;
+}
+
+.footer__links li a{
+    color: var(--color-font-2);
+}
+
+.footer__links li:first-child{
+    color: var(--color-font-1);
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+form p{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: var(--color-font-1);
+    margin-bottom: 44px;
+}
+
+form input{
+    width: 325px;
+    height: 48px;
+    border: solid 1px #BCD0E5;
+    border-radius: 4px;
+    margin-bottom: 21px;
+}
+
+form button{
+    width: 131px;
+    height: 39px;
+    color: #FFFFFF;
+    background-color: var(--orange);
+    font-weight: 700;
+    border-radius: 4px;
+    display: block;
+}
